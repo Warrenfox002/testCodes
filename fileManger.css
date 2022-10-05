@@ -315,16 +315,14 @@
   background-color: #CCC;  
 }
 
-.document .document-body .document-download-icon,
-.document:hover .document-body .document-icon{
+.document .document-body .document-download-icon{
   display:none; 
 }
 
-.document:hover .document-body .document-download-icon{
-  display:inline;
+.document:hover .document-body .document-icon{
+  content: "\f0fe";
 }
 
-inline
 
 
 .document .document-body {
