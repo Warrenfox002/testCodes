@@ -311,9 +311,27 @@
   border: 1px solid #dce2e9;
 }
 
+.document-download-icon{
+  display:none;
+}
+
 .document:hover .document-body{
   background-color: #CCC;  
 }
+
+.document:hover .document-body .document-icon{
+  display:none; 
+}
+
+.document:hover .document-body .document-download-icon{
+  display:block;
+}
+
+
+}
+
+
+
 
 .document .document-body {
   height: 130px;
