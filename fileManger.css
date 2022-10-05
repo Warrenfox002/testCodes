@@ -311,6 +311,10 @@
   border: 1px solid #dce2e9;
 }
 
+.document:hover .document-body{
+  background-color: #CCC;  
+}
+
 .document .document-body {
   height: 130px;
   text-align: center;
