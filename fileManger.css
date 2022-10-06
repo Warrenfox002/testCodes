@@ -315,12 +315,6 @@
   background-color: #CCC;  
 }
 
-.document:hover .document-body .document-icon{
-  content: "\f0fe";
-}
-
-
-
 .document .document-body {
   height: 130px;
   text-align: center;
